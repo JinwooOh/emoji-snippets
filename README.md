@@ -16,4 +16,4 @@ Emoji Snippets for Typescript
 | efn       | Typescript: typed function with 1 param  |
 | efn2      | Typescript: typed function with 2 params |
 
-![action](images/emoji-snippets.gif)
+![action](https://github.com/JinwooOh/emoji-snippets/blob/master/images/emoji-snippets.gif?raw=true)
