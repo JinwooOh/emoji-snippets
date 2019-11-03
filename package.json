@@ -1,0 +1,38 @@
+{
+	"publisher": "jinwoooh",
+	"name": "emoji-snippets",
+	"displayName": "Emoji Snippets",
+	"description": "Code snippets",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.39.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "af372a3e-1184-43bc-9947-6acea1fbbf16",
+		"publisherDisplayName": "jinwoooh",
+		"publisherId": "70fa2413-3afa-477d-b4ab-7926c335b898"
+	}
+}

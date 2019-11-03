@@ -1,0 +1,91 @@
+{
+  //Test
+  "it": {
+    "prefix": "eit",
+    "body": "it('${1:✏️ }', () => {\n\t$0\n});",
+    "description": "🔥 Jest: creates an it block",
+    "scope": "source.js"
+  },
+  "describe": {
+    "prefix": "edesc",
+    "body": "describe('${1:📕}', () => {\n\t$0\n});",
+    "description": "🔥 Jest: creates a describe block",
+    "scope": "source.js"
+  },
+  //Javascript
+  "log": {
+    "prefix": "elg",
+    "body": "console.log('${1:❓}', ${2:✍️});",
+    "description": "🔥 console.log()",
+    "scope": "source.js"
+  },
+  "table": {
+    "prefix": "etb",
+    "body": "console.table('${1:❓}', ${2:📊});",
+    "description": "🔥 console.log()",
+    "scope": "source.js"
+  },
+
+  //Typescript
+  "enum": {
+    "prefix": "enum",
+    "body": "enum ${1:Example🗃} {\n\t${2:EXAMPLE🗃} = '${2:EXAMPLE}'\n};",
+    "description": "🔥 Typescript: enum template",
+    "scope": "source.js"
+  },
+  "interface": {
+    "prefix": "ei",
+    "body": "interface ${1:Example🖨️} {\n\t${2:property🏠} : '${3:Type}'\n};",
+    "description": "🔥 Typescript: interface template",
+    "scope": "source.js"
+  },
+  "typeFn": {
+    "prefix": "efn",
+    "body": "function ${1:example👨‍🔬}(${2:param}: ${3:Type}): ${4:returnType}{\n\t${5}\n};",
+    "description": "🔥 Typescript: typed function with 1 param",
+    "scope": "source.js"
+  },
+  "typeFn2": {
+    "prefix": "efn2",
+    "body": "function ${1:example👨‍🔬}(${2:param1️⃣}: ${3:Type}, ${4:param2️⃣}: ${5:Type}): ${4:returnType}{\n\t${6}\n};",
+    "description": "🔥 Typescript: typed function with 2 params",
+    "scope": "source.js"
+  },
+
+  "Will": {
+    "prefix": "ewp",
+    "body": "'🧙‍'",
+    "description": "Will",
+    "scope": "source.js"
+  },
+  "Ian": {
+    "prefix": "eimg",
+    "body": "'🌶️'",
+    "description": "Ian",
+    "scope": "source.js"
+  },
+  "Cakelin": {
+    "prefix": "eca",
+    "body": "'📺'",
+    "description": "Cakelin",
+    "scope": "source.js"
+  },
+  "Phil": {
+    "prefix": "epr",
+    "body": "'🚣🏻'",
+    "description": "Phil",
+    "scope": "source.js"
+  },
+  "Amanda": {
+    "prefix": "eam",
+    "body": "'🎼'",
+    "description": "Amanda",
+    "scope": "source.js"
+  },
+  "Jinwoo": {
+    "prefix": "eji",
+    "body": "'☕'",
+    "description": "Jinwoo",
+    "scope": "source.js"
+  }
+}
