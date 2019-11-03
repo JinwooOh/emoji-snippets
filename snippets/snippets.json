@@ -52,6 +52,21 @@
     "scope": "source.js"
   },
 
+  //Comment
+  "todo": {
+    "prefix": "etodo",
+    "body": "// 📆TODO: ${1:todo what?}",
+    "description": "🔥 Comment: TODO",
+    "scope": "source.js"
+  },
+
+  "fixme": {
+    "prefix": "efix",
+    "body": "// 🔥FIXME: ${1:fix what?}",
+    "description": "🔥 Comment: FIXME",
+    "scope": "source.js"
+  },
+
   "Will": {
     "prefix": "ewp",
     "body": "'🧙‍'",
